@@ -7,12 +7,14 @@
     <groupId>it.alten.restproject</groupId>
     <artifactId>calcio</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.3.RELEASE</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
 
@@ -23,11 +25,15 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -48,12 +54,15 @@
     </properties>
 
     <build>
+        <finalName>calcio</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+
     </build>
+
 
 </project>

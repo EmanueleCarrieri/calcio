@@ -1,7 +1,6 @@
-C:\Users\nexse\Desktop\calcio\src\main\java\rest\RestController.java
-C:\Users\nexse\Desktop\calcio\src\main\java\model\CalciatoreRepository.java
-C:\Users\nexse\Desktop\calcio\src\main\java\model\Squadra.java
-C:\Users\nexse\Desktop\calcio\src\main\java\model\Calciatore.java
-C:\Users\nexse\Desktop\calcio\src\main\java\model\SquadraRepository.java
-C:\Users\nexse\Desktop\calcio\src\main\java\rest\Application.java
-C:\Users\nexse\Desktop\calcio\src\main\java\rest\MainController.java
+C:\Users\nexse\Desktop\calcio\src\main\java\calcio\model\Calciatore.java
+C:\Users\nexse\Desktop\calcio\src\main\java\calcio\model\SquadraRepository.java
+C:\Users\nexse\Desktop\calcio\src\main\java\calcio\rest\RestControllers.java
+C:\Users\nexse\Desktop\calcio\src\main\java\calcio\Application.java
+C:\Users\nexse\Desktop\calcio\src\main\java\calcio\model\Squadra.java
+C:\Users\nexse\Desktop\calcio\src\main\java\calcio\model\CalciatoreRepository.java

@@ -1,6 +1,6 @@
-rest\Application.class
-model\CalciatoreRepository.class
-model\Calciatore.class
-rest\RestController.class
-model\SquadraRepository.class
-model\Squadra.class
+calcio\model\Squadra.class
+calcio\Application.class
+calcio\model\CalciatoreRepository.class
+calcio\rest\RestControllers.class
+calcio\model\SquadraRepository.class
+calcio\model\Calciatore.class
