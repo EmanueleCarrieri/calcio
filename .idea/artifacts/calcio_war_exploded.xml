@@ -59,6 +59,7 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.14" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.41" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.8.RELEASE" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/springframework/mobile/spring-mobile-device/1.2.0.BUILD-SNAPSHOT/spring-mobile-device-1.2.0.BUILD-20151127.032035-44.jar" output-file-name="spring-mobile-device-1.2.0.BUILD-SNAPSHOT.jar" />
         </element>
       </element>
       <element id="directory" name="META-INF">
