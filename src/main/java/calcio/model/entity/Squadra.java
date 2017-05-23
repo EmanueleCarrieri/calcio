@@ -11,6 +11,7 @@ public class Squadra {
 
     @Id
     @GeneratedValue
+    @Column(name = "id")
     private Integer id;
 
     @Column(name = "cl_name")

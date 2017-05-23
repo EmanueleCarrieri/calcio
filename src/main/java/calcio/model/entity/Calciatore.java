@@ -14,6 +14,7 @@ import javax.persistence.*;
 public class Calciatore {
 
     @Id
+    @GeneratedValue
     private Integer id;
 
     @Column(name = "cl_nome")
@@ -23,6 +24,7 @@ public class Calciatore {
     private int numero;
 
     @ManyToOne
+    @JoinColumn(name = "id_squadra")
     private Squadra squadra;
 
 
@@ -56,5 +58,15 @@ public class Calciatore {
 
     public void setSquadra(Squadra squadra) {
         this.squadra = squadra;
+    }
+
+    @Override
+    public String toString() {
+        return "Calciatore{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", numero=" + numero +
+                ", squadra=" + squadra +
+                '}';
     }
 }
